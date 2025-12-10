@@ -1,0 +1,13 @@
+body{
+    background-color: lightblue;
+    color: wheat;
+}
+
+h1 {
+    color: white
+    backround-color: black;
+    padding: 30px 15px;
+    border: 2px solid white;
+    Margin: 20px;
+}
+

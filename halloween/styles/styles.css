@@ -1,0 +1,76 @@
+/* Add your CSS here to style your halloween page */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nanum+Brush+Script&family=Pacifico&family=Rubik+Burned&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nanum+Brush+Script&family=Pacifico&family=Rubik+Burned&family=Rubik+Distressed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nanum+Brush+Script&family=Pacifico&family=Rubik+Burned&family=Rubik+Distressed&display=swap');
+
+body {
+    background-color: #4a1d17;
+    background-image: url("../images/elegant-grid.png") !important;
+}
+
+
+header {
+    background-color: #e0deaf;
+    background-image: url("../images/cardboard-flat.png");
+    padding: 10px 10px 10px 10px;
+}
+ul {
+    font-family: "Rubik Burned", system-ui;
+    font-weight: 1000;
+    font-style: normal;
+    list-style: none; 
+    padding: 0; 
+    margin: 0; 
+    display: flex; 
+    justify-content: space-around;
+}
+h1 {
+    font-family: "Rubik Distressed", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    text-align: center;
+}
+li {
+    padding: 5px 10px;
+}
+
+.yeah {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    font-family: "Inria Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.stuff {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #e0deaf;
+    background-image: url("../images/cardboard-flat.png");
+    padding: 10px 10px 10px 10px;
+}
+
+footer {
+    text-align: center;
+    font-family: "Inria Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 100px;
+    padding: 10px;
+    background-color: #e0deaf;
+    background-image: url("../images/cardboard-flat.png");
+    width: 100%;
+    bottom: 0;
+}
+

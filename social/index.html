@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+    body {
+        background-color: #ebefee;
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+    }
+    .post {
+        background-color: #FFFFFF;
+         padding: 10px 0px 10px 0px;
+        max-width: 300px;
+        font-family: Arial, sans-serif;
+    }
+    .photo {
+        justify-content: center;
+        width: 300px;
+        height: 300px;
+        margin: 10px 0;
+        background-color: #00FF00;
+    }
+    .post-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 5px; 
+    }
+    .post-header .user {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+    .post-header .time {
+        display: flex;
+        align-items: center;
+        gap: 10px; 
+    }
+    .post-header .time p {
+        margin: 0;
+    }
+    .post-footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 5px; 
+        margin-top: -15px;
+        margin-bottom: -15px;
+    }
+    .post-footer .options {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+    .post-footer .likes {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+    .gray {
+        color: #696969;
+    }
+</style>
+</head>
+<body>
+    <section class="post">
+        <section class="post-header">
+            <div class="user">
+                <i class="fa-solid fa-user"></i>
+                <b>greentoucher</b>
+            </div>
+            <div class="time">
+                <p class="gray">20 mins</p>
+                <i class="fa-solid fa-ellipsis-vertical"></i>
+            </div>
+        </section>
+        <img class="photo" src="green.webp" alt="green">
+        <div class="post-footer">
+            <div class="options">
+                <i class="fa-solid fa-bookmark"></i>
+                <i class="fa-solid fa-share-nodes"></i>
+                <i class="fa-regular fa-message"></i>
+                <p class="gray">125</p>
+            </div>
+            <div class="likes">
+                <b>852</b>
+                <i class="fa-regular fa-heart"></i>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
